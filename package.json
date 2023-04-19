@@ -1,7 +1,7 @@
 {
   "name": "html-builder",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/roman-usov/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/roman-usov/frontend-project-46/actions)",
+  "description": "",
   "main": "/index.js",
   "type": "module",
   "scripts": {
@@ -14,14 +14,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/roman-usov/frontend-project-46.git"
+    "url": "git+https://github.com/roman-usov/ru-html-builder.git"
   },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/roman-usov/frontend-project-46/issues"
-  },
-  "homepage": "https://github.com/roman-usov/frontend-project-46#readme",
   "devDependencies": {
     "@babel/core": "^7.21.0",
     "@babel/plugin-transform-modules-commonjs": "^7.21.2",
@@ -39,7 +34,9 @@
     "prettier": "^2.8.4"
   },
   "dependencies": {
+    "lodash": "^4.17.21",
     "lodash.has": "^4.5.2",
+    "lodash.identity": "^3.0.0",
     "lodash.isequal": "^4.5.0",
     "lodash.isobject": "^3.0.2",
     "lodash.sortby": "^4.7.0"
